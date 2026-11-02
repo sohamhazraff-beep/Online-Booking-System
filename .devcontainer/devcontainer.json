@@ -1,0 +1,16 @@
+{
+  "name": "NovaReserve Online Booking System",
+  "forwardPorts": [5000, 5173],
+  "portsAttributes": {
+    "5000": {
+      "label": "NovaReserve Production & API",
+      "onAutoForward": "openBrowser",
+      "visibility": "public"
+    },
+    "5173": {
+      "label": "NovaReserve Vite Dev Server",
+      "onAutoForward": "openBrowser",
+      "visibility": "public"
+    }
+  }
+}
