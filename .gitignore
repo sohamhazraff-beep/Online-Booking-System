@@ -1,0 +1,16 @@
+# Dependencies
+node_modules/
+client/node_modules/
+server/node_modules/
+
+# Production build
+client/dist/
+
+# SQLite WAL and temporary files
+*.sqlite-wal
+*.sqlite-shm
+
+# Environment & Logs
+.env
+*.log
+.DS_Store
